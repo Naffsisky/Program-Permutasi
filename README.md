@@ -10,7 +10,7 @@ Buatlah program sederhana yang menerapkan permutasi atau kombinasi. Tampilkan el
 # Cara Install
 
 ```javascript
-https://github.com/Naffsisky/Program-Permutasi.git
+git clone https://github.com/Naffsisky/Program-Permutasi.git
 ```
 
 
