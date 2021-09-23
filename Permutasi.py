@@ -52,6 +52,6 @@ for j in range(1, r + 1):
 print(f' | {r}! = {faktorial}')
 
 #output
-print('------------------------- :')
-print("         ",hasil)
+print('-------------------------')
+print(n,'!' ' /', n-r,'!' ' =' ,hasil)
 print('Hasil permutasinya adalah :', hasil)
