@@ -1,10 +1,19 @@
       # Nama  : Prinafsika
       # NIM   : 21081010278
 #module 
-from itertools import permutations 
+from itertools import permutations
+import pyfiglet 
+
+intro = pyfiglet.figlet_format("Permutasi", font = "standard")
+intronama = pyfiglet.figlet_format('By : Naff', font = "slant")
 
 #user input + penghitungan
-print('Rumus permutasi adalah : n! / (n-r)!')
+print(intro)
+print(intronama)
+print('|--------------------------------------|')
+print('| Rumus permutasi adalah : n! / (n-r)! |')
+print('|--------------------------------------|')
+
 n = int(input('Masukkan angka untuk n : '))
 r = int(input('Masukkan angka untuk r : '))
 def faktorial(x):
