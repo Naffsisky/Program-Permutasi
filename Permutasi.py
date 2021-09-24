@@ -1,5 +1,6 @@
       # Nama  : Prinafsika
       # NIM   : 21081010278
+
 #module 
 from itertools import permutations
 import pyfiglet 
@@ -26,6 +27,7 @@ def faktorial(x):
 hasil = (faktorial(n)/faktorial(n-r))
 a = n
 b = r
+p = n-r
 
 #penghitungan n
 faktorial = 1
@@ -51,7 +53,18 @@ for j in range(1, r + 1):
 
 print(f' | {r}! = {faktorial}')
 
+#penghitungan n-r
+faktorial = 1
+
+while p>=1 :
+      print (p, end = '.')
+      p = p-1
+
+for p in range(1, n-r + 1):
+  faktorial *= p
+
+print(f' | {p}! = {faktorial}')
 #output
-print('-------------------------')
+print('----------------------------------')
 print(n,'!' ' /', n-r,'!' ' =' ,hasil)
 print('Hasil permutasinya adalah :', hasil)
